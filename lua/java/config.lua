@@ -51,7 +51,7 @@ local config = {
 	jdk = {
 		-- install jdk using mason.nvim
 		auto_install = true,
-		version = '17.0.2',
+		version = '21.0.8',
 	},
 
 	notifications = {
