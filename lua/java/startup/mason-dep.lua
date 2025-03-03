@@ -69,7 +69,7 @@ function M.get_pkg_list(config)
 	})
 
 	if config.jdk.auto_install then
-		deps:push({ name = 'openjdk-17', version = config.jdk.version })
+		deps:push({ name = 'openjdk-21', version = config.jdk.version })
 	end
 
 	if config.spring_boot_tools.enable then
